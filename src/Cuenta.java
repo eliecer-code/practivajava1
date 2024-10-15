@@ -27,4 +27,32 @@ public class Cuenta {
         vector = new int[tamanio];
     }
 
+    public double notaMaxima() {
+        double max = vector[0];
+        for (int i = 1; i < tamanio; i++) {
+            if (vector[i] > max) {
+                max = vector[i];
+            }
+        }
+        return max;
+    }
+
+    public double notaMinima() {
+        double min = vector[0];
+        for (int i = 1; i < tamanio; i++) {
+            if (vector[i] < min) {
+                min = vector[i];
+            }
+        }
+        return min;
+    }
+
+    public double promedioNotas() {
+        double suma = 0;
+        for (int i = 0; i < tamanio; i++) {
+            suma += vector[i];
+        }
+
+        return suma / tamanio;
+    }
 }
