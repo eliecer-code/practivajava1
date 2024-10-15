@@ -40,3 +40,16 @@ Esta clase contiene el método `main()` y otros métodos estáticos para interac
 - **Métodos**:
   - `mostrarNotas(Cuenta obj, String cadena)`: Muestra las notas ingresadas en formato de vector.
   - `main()`: Controla el flujo del programa. Solicita las notas al usuario, las almacena en el vector y luego muestra la nota máxima, mínima y el promedio.
+
+## Personalización
+
+Puedes modificar el tamaño del array o las notas a ingresar ajustando el valor en la clase `Cuenta` o cambiando el rango de las notas.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si tienes sugerencias para mejorar este programa, por favor abre un issue o envía un pull request.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
+
